@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>first django</title>
+	<style type="text/css" media="screen">
+	h1{
+		color: red;
+		text-align: center;
+	}
+	.box{
+		justify-content: center;
+		align-items: center;
+	}	
+	</style>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<h1>welcome to word capitalizer</h1>
+	<form action="/capital" method="get">
+		<textarea name="text" class="box" style="width: 1337px; height: 47px;"></textarea>
+		<input type="checkbox" name="capital">capital<br>
+		<input type="checkbox" name="count">count<br>
+		<button type="submit">processed</button>
+	</form>
+</body>
+</html>
